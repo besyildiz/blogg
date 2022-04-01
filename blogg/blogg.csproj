@@ -53,7 +53,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="access_dosyam.mdb" />
+    <Content Include="App_Data\access_dosyam.mdb" />
     <Content Include="index.aspx" />
     <Content Include="sil.aspx" />
     <Content Include="Web.config" />
