@@ -47,7 +47,14 @@ namespace blogg.yonetim
                         Response.Redirect("anasayfa.aspx");
                     }
                 }
-                    
+                else
+                {
+              
+              ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "hello", "alert('Kullanıcı bilgileri hatalı')", true);
+
+
+                }
+
             }
             catch (Exception w)
             {
