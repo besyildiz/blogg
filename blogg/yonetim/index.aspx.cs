@@ -41,9 +41,12 @@ namespace blogg.yonetim
                 {
                     vKullaniciAdi = reader["kullaniciadi"].ToString();
                     vSifre = reader["sifre"].ToString();
-
+                    Session["adi"] = reader["adi"].ToString();
+                    Session["soyadi"] = reader["soyadi"].ToString();
                     if (vKullaniciAdi==kullaniciAdi && vSifre==sifre)
                     {
+
+                  
                         Response.Redirect("anasayfa.aspx");
                     }
                 }

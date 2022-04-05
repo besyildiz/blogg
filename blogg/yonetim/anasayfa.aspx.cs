@@ -11,7 +11,16 @@ namespace blogg.yonetim
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["adi"]==null)
+            {
+                Response.Redirect("index.aspx");
+            }
+        }
 
+        protected void btOturumuKapat_Click(object sender, EventArgs e)
+        {
+            Session.Abandon();
+            Response.Redirect("index.aspx");
         }
     }
 }
