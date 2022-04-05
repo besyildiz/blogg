@@ -37,6 +37,7 @@ namespace blogg
                     ltIsimSoyisim6.Text = reader["adi"].ToString() + " " + reader["soyadi"].ToString();
                     ltHakkindaBaslik.Text = reader["hakkindaBaslik"].ToString();
 
+
                 }
                
             }
