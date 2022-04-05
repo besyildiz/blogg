@@ -29,11 +29,16 @@ namespace blogg
                 if (reader.Read())
                 {
                     ltYuklenirken.Text = reader["adi"].ToString()+" "+ reader["soyadi"].ToString();
-
-
+                    ltIsimSoyisim1.Text= reader["adi"].ToString() + " " + reader["soyadi"].ToString();
+                    ltIsimSoyisim2.Text = reader["adi"].ToString() + " " + reader["soyadi"].ToString();
+                    ltIsimSoyisim3.Text = reader["adi"].ToString() + " " + reader["soyadi"].ToString();
+                    ltIsimSoyisim4.Text = reader["adi"].ToString() + " " + reader["soyadi"].ToString();
+                    ltIsimSoyisim5.Text = reader["adi"].ToString() + " " + reader["soyadi"].ToString();
+                    ltIsimSoyisim6.Text = reader["adi"].ToString() + " " + reader["soyadi"].ToString();
+                    ltHakkindaBaslik.Text = reader["hakkindaBaslik"].ToString();
 
                 }
-
+               
             }
         }
     }

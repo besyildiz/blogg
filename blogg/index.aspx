@@ -74,7 +74,7 @@
             <!-- LOGO -->
             <div class="logo hover navigation-opacity"> <a href="#home" class="page-link"> 
                 
-                 ARLO BROWN 
+        <asp:Literal ID="ltIsimSoyisim2" runat="server" /> 
 
 
                                                         </a></div>
@@ -133,7 +133,8 @@
                 <div class="navigation-bar">
 
                     <!-- LOGO -->
-                    <div class="logo"> <a href="#home" class="page-link hover">  ARLO BROWN  </a></div>
+                    <div class="logo"> <a href="#home" class="page-link hover">    
+                          <asp:Literal ID="ltIsimSoyisim3" runat="server" />  </a></div>
                     <!-- LOGO -->
 
 
@@ -262,7 +263,8 @@
                 <div class="navigation-bar">
 
                     <!-- LOGO -->
-                    <div class="logo"> <a href="#home" class="page-link hover">  ARLO BROWN  </a></div>
+                    <div class="logo"> <a href="#home" class="page-link hover"> 
+                             <asp:Literal ID="ltIsimSoyisim4" runat="server" />  </a></div>
                     <!-- LOGO -->
 
 
@@ -307,7 +309,7 @@
                  <div class="about-info">
 
                     <div class="heading">
-                        Your Photographer Search ends here.
+                        <asp:Literal id="ltHakkindaBaslik" runat="server" />
                     </div>
 
                    <div class="paragraph">
@@ -364,7 +366,8 @@
                 <div class="navigation-bar">
 
                     <!-- LOGO -->
-                    <div class="logo"> <a href="#home" class="page-link hover">  ARLO BROWN  </a></div>
+                    <div class="logo"> <a href="#home" class="page-link hover">   
+                            <asp:Literal ID="ltIsimSoyisim5" runat="server" />  </a></div>
                     <!-- LOGO -->
 
 
@@ -604,7 +607,8 @@
                 <!-- IMAGES CONTAINER -->
 
                 <div class="copyright">
-                    All Images © 2013-2020 Arlo Brown
+                Bütün hakları © 2013-2020  
+                       <asp:Literal ID="ltIsimSoyisim6" runat="server" /> 
                 </div>
 
 

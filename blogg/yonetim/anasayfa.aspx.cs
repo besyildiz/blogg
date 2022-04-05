@@ -40,5 +40,17 @@ namespace blogg.yonetim
 
             komut.ExecuteNonQuery();
         }
+
+        protected void btHakkindaBaslik_Click(object sender, EventArgs e)
+        {
+            con = new OleDbConnection(ConfigurationManager.ConnectionStrings["baglanti_cumlem"].ConnectionString);
+            con.Open();
+            OleDbCommand komut;
+
+
+            komut = new OleDbCommand("update kullanici set hakkindaBaslik= '" + tbHakkindaBaslik.Text  +"'  where id=1", con);
+
+            komut.ExecuteNonQuery();
+        }
     }
 }
