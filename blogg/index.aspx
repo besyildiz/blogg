@@ -4,10 +4,9 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-  <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ARLO BROWN - PROFESSIONAL PHOTOGRAPHER </title>
-
+    <title></title> <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
     <!--favicon-img--> 
         <link rel="icon" type="image/png" href="images/favicon.jpg">
     <!--favicon-img-->
@@ -21,14 +20,12 @@
     <!-- GSAP JS LINK -->
 
     <!-- CSS LINK -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css"/>
     <!-- CSS LINK -->
-
 
 </head>
 <body>
     <form id="form1" runat="server">
-   
     <!-- ALL CONTENTS -->
 
     <main id="all">
@@ -41,8 +38,8 @@
 
             <!-- LOADER TEXT -->
 
-            <div class="loader-text-stroke"> EKREM GÜLCÜOĞLU
-                <div class="loader-text"> EKREM GÜLCÜOĞLU </div>
+            <div class="loader-text-stroke"> <asp:Literal id="ltYuklenirken" runat="server" />
+                <div class="loader-text"> <asp:Literal ID="ltIsimSoyisim1" runat="server" /> </div>
             </div>
             <!-- LOADER TEXT -->
 
@@ -75,7 +72,12 @@
         <div id="navigation">
 
             <!-- LOGO -->
-            <div class="logo hover navigation-opacity"> <a href="#home" class="page-link">  ARLO BROWN  </a></div>
+            <div class="logo hover navigation-opacity"> <a href="#home" class="page-link"> 
+                
+                 ARLO BROWN 
+
+
+                                                        </a></div>
             <!-- LOGO -->
 
             <!-- NAVIGTAION CLOSE -->
@@ -979,5 +981,6 @@
     <script src="js/index.js"></script>
     
     </form>
+ 
 </body>
 </html>

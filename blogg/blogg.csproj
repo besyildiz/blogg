@@ -54,7 +54,52 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\access_dosyam.mdb" />
+    <Content Include="bin\blogg.dll" />
+    <Content Include="bin\blogg.pdb" />
+    <Content Include="css\style.css" />
+    <Content Include="images\about-image-two.jpg" />
+    <Content Include="images\copyright.png" />
+    <Content Include="images\favicon.jpg" />
+    <Content Include="images\home-advertising.jpg" />
+    <Content Include="images\home-nature.jpg" />
+    <Content Include="images\home-portrait.jpg" />
+    <Content Include="images\home-wedding.jpg" />
+    <Content Include="images\nature-pic-four.jpg" />
+    <Content Include="images\nature-pic-three.jpg" />
+    <Content Include="images\nature-pic-two.jpg" />
+    <Content Include="images\next.png" />
+    <Content Include="images\pic-advertising-five.jpg" />
+    <Content Include="images\pic-advertising-four.jpg" />
+    <Content Include="images\pic-advertising-three.jpg" />
+    <Content Include="images\pic-advertising-two.jpg" />
+    <Content Include="images\pic-architecture-five.jpg" />
+    <Content Include="images\pic-architecture-four.jpg" />
+    <Content Include="images\pic-architecture-one.jpg" />
+    <Content Include="images\pic-architecture-three.jpg" />
+    <Content Include="images\pic-architecture-two.jpg" />
+    <Content Include="images\places-pic-four.jpg" />
+    <Content Include="images\places-pic-one.jpg" />
+    <Content Include="images\places-pic-three.jpg" />
+    <Content Include="images\places-pic-two.jpg" />
+    <Content Include="images\portrait-pic-five.jpg" />
+    <Content Include="images\portrait-pic-four.jpg" />
+    <Content Include="images\portrait-pic-three.jpg" />
+    <Content Include="images\portrait-pic-two.jpg" />
+    <Content Include="images\prev.png" />
+    <Content Include="images\wedding-pic-five.jpg" />
+    <Content Include="images\wedding-pic-four.jpg" />
+    <Content Include="images\wedding-pic-six.jpg" />
+    <Content Include="images\wedding-pic-three.jpg" />
+    <Content Include="images\wedding-pic-two.jpg" />
     <Content Include="index.aspx" />
+    <Content Include="js\circletype.min.js" />
+    <Content Include="js\index.js" />
+    <Content Include="js\jquery.lettering.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\masonry.min.js" />
+    <Content Include="obj\Debug\blogg.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\blogg.dll" />
+    <Content Include="obj\Debug\blogg.pdb" />
     <Content Include="sil.aspx" />
     <Content Include="Web.config" />
     <Content Include="yonetim\anasayfa.aspx" />
@@ -94,12 +139,26 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\fonts\camel.woff" />
+    <Content Include="css\fonts\camel.woff2" />
+    <Content Include="css\fonts\monumentextended-regular-webfont.woff" />
+    <Content Include="css\fonts\monumentextended-regular-webfont.woff2" />
+    <Content Include="css\fonts\orelo_standard_medium-webfont.woff" />
+    <Content Include="css\fonts\orelo_standard_medium-webfont.woff2" />
+    <Content Include="css\fonts\tuesdaynight-regular-webfont.woff" />
+    <Content Include="css\fonts\tuesdaynight-regular-webfont.woff2" />
+    <Content Include="obj\Debug\blogg.csprojResolveAssemblyReference.cache" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="bin\blogg.dll.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
